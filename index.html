@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container-fluid">
+
+    <h1 class="text-center text-decoration-underline">Ejercicio 11 Bootstrap</h1>
+
+    <!-- Header -->
+    <div class="row text-center my-2 order-1 gx-0">
+        <div class="col bg-success border"><p class="fst-italic">Header</p></div>
+    </div>
+    
+    <!-- azul oscuro -->
+    <div class="row text-center gx-0">
+        <div class="col-sm-3 col-6  offset-md-3 order-md-1"><div class="bg-primary border p-3 c1"><p>1</p></div></div>
+        <div class="col-sm-3 col-6 order-md-2"><div class="bg-primary border p-3 c1"><p>2</p></div></div>
+        <div class="col-sm-3 col-6 order-md-4"><div class="bg-primary border p-3 c1"><p>3</p></div></div>
+        <div class="col-sm-3 col-6 offset-md-6 order-md-5"><div class="bg-primary border p-3 c1"><p>4</p></div></div>
+        <div class="col-0 col-sm-3 order-md-3"></div>
+    </div>
+
+    <!-- Tablet -->
+    <div class="row bg-info border gx-0 text-center d-none d-sm-block d-md-none"><p class="fst-italic">Tablet</p></div>
+
+    <!-- gris -->
+    <div class="row gx-0 text-center text-light">
+        <div class="col-6 col-sm-3 bg-secondary border order-1 order-sm-4 c1"><p>a</p></div>
+        <div class="col-6 col-sm-3 bg-secondary border order-2 order-sm-3 c1"><p>b</p></div>
+        <div class="col-6 col-sm-3 bg-secondary border  order-3 order-sm-2 c1"><p>c</p></div>
+        <div class="col-6 col-sm-3 bg-secondary border order-4 order-sm-1 c1"><p>d</p></div>
+    </div>
+
+    <!-- Desktop -->
+    <div class="row bg-info border gx-0 text-center d-none d-md-block"><p class="fst-italic">Desktop</p></div>
+
+    <!-- Mobile -->
+    <div class="row bg-info border gx-0 text-center d-block d-sm-none"><p class="fst-italic">Mobile</p></div>
+
+    <!-- naranja -->
+    <div class="row gx-0 text-center justify-content-center">
+        <div class="col-12 col-sm-6 col-md-3 order-1 order-md-2 text-bg-warning border c1"><p>:D</p></div>
+        <div class="col-0 col-sm-6 col-md-3 order-2 order-md-1 bg-warning border d-none d-sm-block c1"><p>:(</p></div>
+    </div>
+
+    <!-- verde -->
+    <div class="row gx-0 text-center bg-success border d-none d-sm-block"><p class="fst-italic">footer</p></div>
+
+</div>  
+</body>
+</html>
